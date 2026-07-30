@@ -12,3 +12,4 @@ untrimmed_fastq/
 *.fastq.gz
 *.fq
 *.fq.gz
+*.zip
