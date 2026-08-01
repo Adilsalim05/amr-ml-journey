@@ -13,3 +13,5 @@ untrimmed_fastq/
 *.fq
 *.fq.gz
 *.zip
+data/card/*.tar.bz2
+data/card/*.json
