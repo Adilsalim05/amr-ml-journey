@@ -158,41 +158,55 @@ negative_df["length_bin"] = pd.cut(
     right=False
 )
 
+# --------------------------------------------------
+# 9. Calculate CARD length distribution directly
+# --------------------------------------------------
+
+positive_df = pd.read_csv("data/positive_class.csv")
+
+positive_df["length"] = positive_df["sequence"].str.len()
+
+positive_df["length_bin"] = pd.cut(
+    positive_df["length"],
+    bins=bins,
+    labels=labels,
+    right=False
+)
+
+CARD_COUNTS = (
+    positive_df["length_bin"]
+    .value_counts()
+    .reindex(labels, fill_value=0)
+)
+
+CARD_PROPORTIONS = CARD_COUNTS / len(positive_df)
+
+print("\nCARD length distribution:")
+for label in labels:
+    print(
+        f"{label}: "
+        f"{CARD_COUNTS[label]} "
+        f"({CARD_PROPORTIONS[label] * 100:.2f}%)"
+    )
+
 
 # --------------------------------------------------
-# 9. CARD-derived length distribution
-# --------------------------------------------------
-
-CARD_PROPORTIONS = {
-    "<100": 0.0023,
-    "100-199": 0.0382,
-    "200-299": 0.5833,
-    "300-399": 0.3128,
-    "400-499": 0.0218,
-    "500-699": 0.0330,
-    "700-999": 0.0023,
-    ">=1000": 0.0063
-}
-
-
-# --------------------------------------------------
-# 10. Calculate how many negatives to sample
+# 10. Calculate negative sampling targets
 # --------------------------------------------------
 
 targets = {
-    label: round(TARGET * proportion)
-    for label, proportion in CARD_PROPORTIONS.items()
+    label: round(TARGET * CARD_PROPORTIONS[label])
+    for label in labels
 }
 
-# Correct rounding so the total equals TARGET
+# Correct rounding so the targets sum exactly to TARGET
 difference = TARGET - sum(targets.values())
 targets["200-299"] += difference
 
 print("\nTarget negative proteins by length:")
 for label in labels:
     print(f"{label}: {targets[label]}")
-
-
+# --------------------------------------------------
 # --------------------------------------------------
 # 11. Check that every length bin has enough proteins
 # --------------------------------------------------

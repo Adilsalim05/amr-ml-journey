@@ -15,3 +15,19 @@ untrimmed_fastq/
 *.zip
 data/card/*.tar.bz2
 data/card/*.json
+# Large/raw sequencing data
+data/raw_fastq/
+
+# Large derived ML feature matrix
+data/kmer_features.csv
+
+# CARD raw/downloaded data
+data/card/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc

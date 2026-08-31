@@ -1,0 +1,34 @@
+card_organism,positive_count,decision,normalized_target
+Pseudomonas aeruginosa,1079,species,Pseudomonas aeruginosa
+Acinetobacter baumannii,731,species,Acinetobacter baumannii
+Klebsiella pneumoniae,700,species,Klebsiella pneumoniae
+Escherichia coli,558,species,Escherichia coli
+Enterobacter cloacae,170,species,Enterobacter cloacae
+"Bacteria, Viruses, Fungi, and other genome sequence associated with antimicrobial resistance",132,exclude,
+Citrobacter freundii,123,species,Citrobacter freundii
+Acinetobacter pittii,93,species,Acinetobacter pittii
+Campylobacter jejuni,76,species,Campylobacter jejuni
+Klebsiella oxytoca,72,species,Klebsiella oxytoca
+Proteus mirabilis,67,species,Proteus mirabilis
+uncultured bacterium,63,keep_unmatched,
+Enterococcus faecium,45,species,Enterococcus faecium
+Enterobacter hormaechei,45,species,Enterobacter hormaechei
+Acinetobacter calcoaceticus,41,species,Acinetobacter calcoaceticus
+Aeromonas caviae,40,species,Aeromonas caviae
+Staphylococcus aureus,39,species,Staphylococcus aureus
+Elizabethkingia meningoseptica,37,species,Elizabethkingia meningoseptica
+Pseudomonas aeruginosa PAO1,35,merge,Pseudomonas aeruginosa
+Burkholderia multivorans,35,species,Burkholderia multivorans
+Enterococcus faecalis,34,species,Enterococcus faecalis
+Serratia marcescens,33,species,Serratia marcescens
+Bacteroides fragilis,33,species,Bacteroides fragilis
+Achromobacter xylosoxidans,31,species,Achromobacter xylosoxidans
+Vibrio parahaemolyticus,30,species,Vibrio parahaemolyticus
+Enterobacter cloacae complex,27,complex,Enterobacter cloacae complex
+Enterobacter asburiae,26,species,Enterobacter asburiae
+Acinetobacter bereziniae,25,species,Acinetobacter bereziniae
+Elizabethkingia anophelis,24,species,Elizabethkingia anophelis
+Pseudomonas,24,genus,Pseudomonas
+Chryseobacterium indologenes,21,species,Chryseobacterium indologenes
+Escherichia coli str. K-12 substr. MG1655,21,merge,Escherichia coli
+Morganella morganii,20,species,Morganella morganii
