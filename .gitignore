@@ -31,3 +31,15 @@ data/card/
 # Python cache
 __pycache__/
 *.pyc
+# Week 6 RNA-seq large/generated data
+week6/raw_rnaseq/
+week6/qc_trimmed/trimmed/
+week6/qc_trimmed_v2/trimmed/
+week6/alignment/*.sam
+week6/alignment/*.bam
+week6/alignment/*.bai
+week6/reference/hg19/chr21.fa
+week6/reference/hg19/hisat2_index/
+
+# Week 6 macOS metadata
+week6/.DS_Store

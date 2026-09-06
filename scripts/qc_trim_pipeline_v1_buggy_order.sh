@@ -53,9 +53,10 @@ for infile in "$RAW_DIR"/*_1.fastq; do
         "$OUT_DIR/trimmed/${base}_1un.trim.fastq" \
         "$OUT_DIR/trimmed/${base}_2.trim.fastq" \
         "$OUT_DIR/trimmed/${base}_2un.trim.fastq" \
-	ILLUMINACLIP:"$ADAPTERS":2:40:15 \
-	SLIDINGWINDOW:4:20 \
-	MINLEN:25
+        SLIDINGWINDOW:4:20 \
+        MINLEN:25 \
+        ILLUMINACLIP:"$ADAPTERS":2:40:15
+
 done
 
 log_step "Running FastQC on trimmed paired reads"

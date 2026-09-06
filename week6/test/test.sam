@@ -1,0 +1,7 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:chrTest	LN:66
+@PG	ID:hisat2	PN:hisat2	VN:2.2.3	CL:"/Users/adilsalim/Downloads/yes/envs/bioml/bin/hisat2-align-s --wrapper basic-0 -x test_index -S test.sam --read-lengths 20 -1 reads_1.fastq -2 reads_2.fastq"
+read1	65	chrTest	1	60	20M	=	13	32	ATGCGTACGTAGCTAGCTAG	IIIIIIIIIIIIIIIIIIII	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:20	YS:i:0	YT:Z:DP	NH:i:1
+read1	129	chrTest	13	60	20M	=	1	-32	CTAGCTAGCTAGGCTACGTA	IIIIIIIIIIIIIIIIIIII	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:20	YS:i:0	YT:Z:DP	NH:i:1
+read2	73	chrTest	37	60	20M	=	37	0	GCTAGCTAACGATCGATCGT	IIIIIIIIIIIIIIIIIIII	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:20	YT:Z:UP	NH:i:1
+read2	133	chrTest	37	0	*	=	37	0	ACGATCGTAGCTAGCTAGCT	IIIIIIIIIIIIIIIIIIII	YT:Z:UP
