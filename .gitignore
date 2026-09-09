@@ -43,3 +43,7 @@ week6/reference/hg19/hisat2_index/
 
 # Week 6 macOS metadata
 week6/.DS_Store
+
+#week7 
+data/mechanism_dataset.csv
+data/mechanism_kmer_features.csv
