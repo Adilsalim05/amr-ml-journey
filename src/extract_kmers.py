@@ -2,8 +2,8 @@ from collections import Counter
 import pandas as pd
 
 
-INPUT = "data/ml_dataset.csv"
-OUTPUT = "data/kmer_features.csv"
+INPUT = "data/mechanism_dataset.csv"
+OUTPUT = "data/mechanism_kmer_features.csv"
 
 K = 3
 
