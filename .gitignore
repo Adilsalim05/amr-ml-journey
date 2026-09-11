@@ -47,3 +47,5 @@ week6/.DS_Store
 #week7 
 data/mechanism_dataset.csv
 data/mechanism_kmer_features.csv
+
+week6/reference/hg19/chr21.fa.fai
