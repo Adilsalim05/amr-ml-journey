@@ -49,3 +49,15 @@ data/mechanism_dataset.csv
 data/mechanism_kmer_features.csv
 
 week6/reference/hg19/chr21.fa.fai
+
+# Week 10 RNA-seq pipeline generated outputs
+week10/pipeline_output/
+
+# Exploratory/generated MultiQC results
+results/multiqc_all/
+results/multiqc_debug/
+results/multiqc_dirs/
+
+
+
+
