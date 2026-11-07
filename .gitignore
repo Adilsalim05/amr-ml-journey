@@ -59,5 +59,8 @@ results/multiqc_debug/
 results/multiqc_dirs/
 
 
-
+# Week 11: RGI/CARD generated database files
+card_database_v4.0.1.fasta
+card_database_v4.0.1_all.fasta
+localDB/
 
