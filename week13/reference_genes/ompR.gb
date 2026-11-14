@@ -1,0 +1,39 @@
+LOCUS       ompR                     720 bp    DNA              UNK 01-JAN-1980
+DEFINITION  DNA-binding transcriptional dual regulator OmpR.
+ACCESSION   ompR
+VERSION     ompR
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..720
+                     /gene="ompR"
+                     /locus_tag="b3405"
+                     /gene_synonym="cry; ECK3392; kmt; ompB"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA-binding transcriptional dual regulator OmpR"
+                     /protein_id="NP_417864.1"
+                     /db_xref="UniProtKB/Swiss-Prot:P0AA16"
+                     /db_xref="ECOCYC:EG10672"
+                     /db_xref="GeneID:947913"
+                     /translation="MQENYKILVVDDDMRLRALLERYLTEQGFQVRSVANAEQMDRLLT
+                     RESFHLMVLDLMLPGEDGLSICRRLRSQSNPMPIIMVTAKGEEVDRIVGLEIGADDYIP
+                     KPFNPRELLARIRAVLRRQANELPGAPSQEEAVIAFGKFKLNLGTREMFREDEPMPLTS
+                     GEFAVLKALVSHPREPLSRDKLMNLARGREYSAMERSIDVQISRLRRMVEEDPAHPRYI
+                     QTVWGLGYVFVPDGSKA"
+ORIGIN
+        1 atgcaagaga actacaagat tctggtggtc gatgacgaca tgcgcctgcg tgcgctgctg
+       61 gaacgttatc tcaccgaaca aggcttccag gttcgaagcg tcgctaatgc agaacagatg
+      121 gatcgcctgc tgactcgtga atctttccat cttatggtac tggatttaat gttacctggt
+      181 gaagatggct tgtcgatttg ccgacgtctt cgtagtcaga gcaacccgat gccgatcatt
+      241 atggtgacgg cgaaagggga agaagtggac cgtatcgtag gcctggagat tggcgctgac
+      301 gactacattc caaaaccgtt taacccgcgt gaactgctgg cccgtatccg tgcggtgctg
+      361 cgtcgtcagg cgaacgaact gccaggcgca ccgtcacagg aagaggcggt aattgctttc
+      421 ggtaagttca aacttaacct cggtacgcgc gaaatgttcc gcgaagacga gccgatgccg
+      481 ctcaccagcg gtgagtttgc ggtactgaag gcactggtca gccatccgcg tgagccgctc
+      541 tcccgcgata agctgatgaa ccttgcccgt ggtcgtgaat attccgcaat ggaacgctcc
+      601 atcgacgtgc agatttcgcg tctgcgccgc atggtggaag aagatccagc gcatccgcgt
+      661 tacattcaga ccgtctgggg tctgggctac gtctttgtac cggacggctc taaagcatga
+//

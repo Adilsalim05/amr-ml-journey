@@ -1,0 +1,36 @@
+LOCUS       yjgA                     552 bp    DNA              UNK 01-JAN-1980
+DEFINITION  putative ribosome biogenesis factor YjgA.
+ACCESSION   yjgA
+VERSION     yjgA
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..552
+                     /gene="yjgA"
+                     /locus_tag="b4234"
+                     /gene_synonym="ECK4229"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative ribosome biogenesis factor YjgA"
+                     /protein_id="NP_418655.1"
+                     /db_xref="UniProtKB/Swiss-Prot:P0A8X0"
+                     /db_xref="ECOCYC:EG11410"
+                     /db_xref="GeneID:948751"
+                     /translation="MTKQPEDWLDDVPGDDIEDEDDEIIWVSKSEIKRDAEELKRLGAE
+                     IVDLGKNALDKIPLDADLRAAIELAQRIKMEGRRRQLQLIGKMLRQRDVEPIRQALDKL
+                     KNRHNQQVVLFHKLENLRDRLIDQGDDAIAEVLNLWPDADRQQLRTLIRNAKKEKEGNK
+                     PPKSARQIFQYLRELAENEG"
+ORIGIN
+        1 atgactaagc agcccgaaga ctggctcgac gacgttcccg gtgatgacat cgaagacgaa
+       61 gacgatgaaa ttatctgggt cagtaaaagt gaaattaaac gtgatgccga ggagctaaaa
+      121 cgccttggcg cggaaattgt tgatctgggg aaaaacgcgc tggataagat cccgttagat
+      181 gcggatctgc gcgcggctat tgagctcgcc cagcgtatta agatggaagg tcgccgccgc
+      241 cagttgcagc tcatcggtaa gatgctgcgc cagcgcgacg tagagcctat tcgtcaggcg
+      301 ctggataagc tgaaaaaccg tcacaaccag caggtggtgc tgttccataa actggaaaac
+      361 ctgcgcgatc gtctgatcga tcaaggtgat gacgccatcg ctgaggtatt aaatctgtgg
+      421 cccgatgccg atcgtcagca actgcgtact ctgatccgca acgcgaagaa agagaaagaa
+      481 gggaataagc cgccgaaatc cgcacgccag attttccagt atctgcgcga gttagcggag
+      541 aacgaagggt aa
+//

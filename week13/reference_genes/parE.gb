@@ -1,0 +1,65 @@
+LOCUS       parE                    1893 bp    DNA              UNK 01-JAN-1980
+DEFINITION  DNA topoisomerase IV subunit B.
+ACCESSION   parE
+VERSION     parE
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..1893
+                     /gene="parE"
+                     /locus_tag="b3030"
+                     /gene_synonym="ECK3021; nfxD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA topoisomerase IV subunit B"
+                     /protein_id="NP_417502.1"
+                     /db_xref="UniProtKB/Swiss-Prot:P20083"
+                     /db_xref="ECOCYC:EG10687"
+                     /db_xref="GeneID:947501"
+                     /translation="MTQTYNADAIEVLTGLEPVRRRPGMYTDTTRPNHLGQEVIDNSVD
+                     EALAGHAKRVDVILHADQSLEVIDDGRGMPVDIHPEEGVPAVELILCRLHAGGKFSNKN
+                     YQFSGGLHGVGISVVNALSKRVEVNVRRDGQVYNIAFENGEKVQDLQVVGTCGKRNTGT
+                     SVHFWPDETFFDSPRFSVSRLTHVLKAKAVLCPGVEITFKDEINNTEQRWCYQDGLNDY
+                     LAEAVNGLPTLPEKPFIGNFAGDTEAVDWALLWLPEGGELLTESYVNLIPTMQGGTHVN
+                     GLRQGLLDAMREFCEYRNILPRGVKLSAEDIWDRCAYVLSVKMQDPQFAGQTKERLSSR
+                     QCAAFVSGVVKDAFILWLNQNVQAAELLAEMAISSAQRRMRAAKKVVRKKLTSGPALPG
+                     KLADCTAQDLNRTELFLVEGDSAGGSAKQARDREYQAIMPLKGKILNTWEVSSDEVLAS
+                     QEVHDISVAIGIDPDSDDLSQLRYGKICILADADSDGLHIATLLCALFVKHFRALVKHG
+                     HVYVALPPLYRIDLGKEVYYALTEEEKEGVLEQLKRKKGKPNVQRFKGLGEMNPMQLRE
+                     TTLDPNTRRLVQLTIDDEDDQRTDAMMDMLLAKKRSEDRRNWLQEKGDMAEIEV"
+ORIGIN
+        1 atgacgcaaa cttataacgc tgatgccatt gaggtactca ccgggcttga gccggttcgc
+       61 cgccgtccgg ggatgtatac cgataccact cgccctaacc atttggggca agaagtcatt
+      121 gataacagtg tggatgaagc actggcgggt cacgcaaaac gcgtggacgt tattttacat
+      181 gctgaccagt cgttagaagt tattgacgat gggcgcggga tgccggtgga tattcacccg
+      241 gaagagggtg taccggcggt tgaactgatt ctttgccgtc tgcatgcagg cggtaaattc
+      301 tctaacaaaa attaccagtt ctctggcggc ctgcatggcg tggggatttc ggtggttaac
+      361 gccctgtcga agcgcgtaga agttaacgtg cgccgcgatg gtcaggttta taacatcgcc
+      421 tttgaaaatg gcgaaaaggt gcaggattta caggttgtcg gcacttgcgg taaacgcaat
+      481 actggtacca gtgtgcactt ctggccggat gaaaccttct ttgacagccc gcgattttct
+      541 gtttcacgcc tgacgcatgt gctgaaagcc aaagcggtat tgtgccctgg cgttgagatc
+      601 acttttaaag atgagatcaa caataccgaa caacgctggt gctatcagga cggtctgaat
+      661 gattacctgg cggaagcggt aaatggtctg ccgacgctgc cggaaaaacc gtttatcggt
+      721 aatttcgctg gtgatactga agctgtggac tgggcgctac tgtggctgcc ggaaggcggt
+      781 gaactgctga ccgaaagcta cgtcaacctt atcccaacga tgcagggcgg tacccatgtt
+      841 aatggtctgc gtcagggcct gttggacgcg atgcgtgagt tctgtgaata ccgcaatatt
+      901 ctgccgcgcg gtgtaaagct gtcggcggaa gatatctggg atcgctgcgc ctatgtgctg
+      961 tcagtaaaaa tgcaggatcc gcagtttgcc gggcagacga aagagcgtct ctcttcgcgt
+     1021 caatgcgcgg cattcgtttc tggcgtggtg aaagatgcct ttatcctgtg gctgaaccag
+     1081 aacgttcagg cggctgaact gctggcggag atggcgattt ccagcgccca gcgccgtatg
+     1141 cgtgcggcca aaaaagtggt gcgtaaaaag ctgaccagcg gcccggcgtt gcctggcaaa
+     1201 ctggctgatt gtaccgcgca ggaccttaac cgtaccgagc tgttccttgt ggaaggtgac
+     1261 tccgcaggcg gatctgccaa gcaggcgcgc gatcgcgaat atcaggcgat catgccactg
+     1321 aaaggtaaga tccttaacac ctgggaagtc tcttccgacg aagtgctggc ttcgcaggaa
+     1381 gtgcacgata tttcggtagc gatcggtatc gatcctgaca gcgacgatct gagccagctt
+     1441 cgttatggca aaatctgtat cctcgcggat gcggactctg atggtctgca cattgccacg
+     1501 ctgctctgcg ctttgttcgt aaaacatttc cgcgcgttgg tgaaacacgg tcacgtttac
+     1561 gtcgcactgc caccgctcta ccgtattgat ctcgggaaag aggtttatta cgcgctgacg
+     1621 gaagaagaga aagagggcgt acttgagcaa ttaaaacgca agaaaggcaa gccgaacgtc
+     1681 cagcgtttta aaggtctggg ggaaatgaac ccgatgcaat tgcgcgaaac cacgcttgat
+     1741 ccgaacactc gccgtctggt gcagttgact atcgatgatg aagacgatca gcgtactgac
+     1801 gcgatgatgg atatgctgct ggcgaagaaa cgctcggaag atcgccgcaa ctggttgcaa
+     1861 gagaaaggcg acatggcgga gattgaggtt taa
+//
