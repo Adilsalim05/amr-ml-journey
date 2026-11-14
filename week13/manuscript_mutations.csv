@@ -1,0 +1,5 @@
+gene,protein_change,mutation_type,nucleotide_change,genomic_coordinate
+ompR,K6T,amino_acid_substitution,unknown,unknown
+parE,A504V,amino_acid_substitution,unknown,unknown
+yjgA,Q91L,amino_acid_substitution,unknown,unknown
+acrR,p.I16_L17insLD,amino_acid_insertion,unknown,unknown
