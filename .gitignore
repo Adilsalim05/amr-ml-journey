@@ -64,3 +64,14 @@ card_database_v4.0.1.fasta
 card_database_v4.0.1_all.fasta
 localDB/
 
+# Week 12: bacterial WGS alignment files (large, regenerable)
+week12/alignment/*.sam
+week12/alignment/*.bam
+week12/alignment/*.bai
+
+# Week 12: regenerable BWA indexes
+week12/reference/*.amb
+week12/reference/*.ann
+week12/reference/*.bwt
+week12/reference/*.pac
+week12/reference/*.sa

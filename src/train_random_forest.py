@@ -1,5 +1,5 @@
 import pandas as pd
-
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
@@ -67,7 +67,12 @@ model = RandomForestClassifier(
 # --------------------------------------------------
 
 model.fit(X_train, y_train)
+joblib.dump(
+    {"model": model, "feature_columns": X.columns.tolist()},
+    "week13/week5_random_forest.joblib"
+)
 
+print("Model and feature columns saved successfully.")
 print("\nRandom Forest trained successfully.")
 
 
